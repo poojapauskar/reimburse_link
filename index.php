@@ -6,7 +6,7 @@
 <?php
 
 
-$url = 'http://127.0.0.1:4000/check_trip_status/';
+$url = 'https://reimburse.herokuapp.com/check_trip_status/';
 $options = array(
   'http' => array(
     'header'  => array(
@@ -28,7 +28,7 @@ if($arr['details']['status'] == 400){
 else if($arr['details']['Trip Status']['status'] == "approved"){
   echo "Link Expired";
 }else{
-      $url = 'http://127.0.0.1:4000/mark_trip_as_reimbursed/';
+      $url = 'https://reimburse.herokuapp.com/mark_trip_as_reimbursed/';
       $options = array(
         'http' => array(
           'header'  => array(
