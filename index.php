@@ -1,7 +1,7 @@
 <html>
 <body>
 
-<h1>SmarTally</h1>
+<h1>Corro</h1>
 
 <?php
 
